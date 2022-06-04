@@ -53,3 +53,8 @@ ___
 * English: B1 intermediate
 * Russian: C2 Native
 * Belorussian: B2 intermediate
+
+- HTML and CSS Tutorials on the [w3schools](https://www.w3schools.com/) (completed)<br>
+![W3Schools Score](/images/w3schools-score.jpg)<br>
+- JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
