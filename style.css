@@ -34,11 +34,28 @@ main {
   flex-direction: column;
   align-items: center;
   background-color: #D1D6DA;
-  /* padding: 20px; */
+  padding: 20px;
   margin: 0;
   /* height: 100%; */
   border: solid 1px #000;
   width: 100%;
+}
+
+main h3 {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: solid 2px #000;
+  width: 100%;
+  text-align: center;
+}
+
+main h2 {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+main p {
+  margin-bottom: 15px;
 }
 
 aside {
@@ -59,14 +76,33 @@ aside h3 {
 aside ul {
   /* border-bottom: solid 3px #000; */
   margin-bottom: 10px;
+  width: 100%;
 }
 
 aside li {
   /* border-bottom: solid 3px #000; */
   margin: 5px;
 }
+.aside-link {
+  background-color: #1d262d;
+  width: 100%;
+  padding: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  color: #A4ADB3;
+}
+
+.aside-link:hover {
+  color: #cbd4da;
+  background-color: #28343d;
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
+  transition: all 0.2s;
+}
+
 aside li a {
   font-weight: 700;
+  width: 100%;
 }
 
 
@@ -146,4 +182,42 @@ footer {
 .footer-git-link svg {
   height: 35px;
   width: 35px;
+}
+
+.code-container {
+  font-size: 20px;
+  /* font-family: "Ubuntu", sans-serif; */
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
+  /* transition: background 0.6s ease-in-out; */
+  width: 100%;
+  /* min-width: 320px; */
+  max-width: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #1d262d;
+  border-radius: 15px;
+  padding: 15px;
+  overflow-x: auto;
+  color: #c0c5ce;
+  margin-bottom: 15px;
+  /* margin: 0 50px 0 50px; */
+  /* margin: 50px; */
+  /* margin-left: 50px; */
+  /* padding-left: 50px */
+}
+
+.code-container div{
+  margin-left: 15px;
+}
+.code-declaration-color {
+  color: #b45ea4;
+}
+
+.code-props-color {
+  color: #e7ce56;
+}
+
+.code-fn-color {
+  color: #78bb65;
 }
