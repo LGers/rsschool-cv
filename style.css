@@ -179,6 +179,10 @@ footer {
   margin-left: 15px;
 }
 
+.code-moveLine {
+  margin-left: 15px;
+}
+
 .code-declaration-color {
   color: #b45ea4;
 }
