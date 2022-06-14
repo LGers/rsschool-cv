@@ -202,6 +202,7 @@ footer {
   overflow-x: auto;
   color: #c0c5ce;
   margin-bottom: 15px;
+  text-align: left;
 }
 
 .code-container div{
